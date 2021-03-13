@@ -252,5 +252,5 @@ $RECYCLE.BIN/
 ### UOC Boilerplate ###
 dist
 
-# Mac DS_Store
-.DS_Store
+### Webstorm
+.idea
