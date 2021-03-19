@@ -54,12 +54,11 @@ body {
   width: $tables-width;
 
   th {
-    padding-bottom: $tables-padding;
+    text-align: left;
   }
 
-  th {
-    text-align: left;
-
+  td {
+    padding-bottom: $tables-padding;
   }
 }
 
