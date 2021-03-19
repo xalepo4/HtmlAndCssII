@@ -2,20 +2,23 @@ body {
   margin: 0;
   padding: 30px;
   font-family: $font-family-sans-serif;
-  background-color: $uoc-bg;
-  color: $uoc-corporate;
+  background-color: $cv-bg;
+  color: $cv-text;
 }
 
-.uoc-logo {
+.image-block {
+  height: 250px;
+  width: 200px;
+  border-radius: 50%;
   display: block;
-  margin-bottom: 20px;
-  width: 300px;
-  height: auto;
+  margin-left: auto;
+  margin-right: auto;
 }
 
-.uoc-title {
-  font-family: $font-family-serif;
-  font-size: 36px;
-  font-weight: 700;
-  color: $uoc-corporate;
+.text-block {
+  text-align: center;
+}
+
+.main-data-block {
+  text-align: center;
 }
