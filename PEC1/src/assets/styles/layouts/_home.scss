@@ -26,6 +26,7 @@ body {
 }
 
 .academic__table {
+  border: 2px solid black;
   width: $tables-width;
 
   td {
@@ -34,6 +35,7 @@ body {
 }
 
 .working__table {
+  border: 2px solid black;
   width: $tables-width;
 
   td {
@@ -42,6 +44,7 @@ body {
 }
 
 .languages__table {
+  border: 2px solid black;
   width: $tables-width;
   font-weight: bold;
 
@@ -51,6 +54,7 @@ body {
 }
 
 .software__table {
+  border: 2px solid black;
   width: $tables-width;
 
   th {
@@ -63,6 +67,7 @@ body {
 }
 
 .courses__table {
+  border: 2px solid black;
   width: $tables-width;
   font-weight: bold;
 
@@ -72,6 +77,7 @@ body {
 }
 
 .others__table {
+  border: 2px solid black;
   width: $tables-width;
   font-weight: bold;
 
