@@ -1,8 +1,10 @@
+@import "../functions";
+
 body {
   margin: 0;
   padding: 30px;
   font-family: $font-family-sans-serif;
-  background-color: $cv-bg;
+  background: gradient($cv-bg-primary, $cv-bg-secondary);
   color: $cv-text;
 }
 
@@ -60,6 +62,7 @@ body {
 
   }
 }
+
 .courses__table {
   width: $tables-width;
   font-weight: bold;
