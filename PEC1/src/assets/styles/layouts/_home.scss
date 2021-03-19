@@ -24,32 +24,32 @@ body {
 }
 
 .academic__table {
-  width: 100%;
+  width: $tables-width;
 }
 
 .academic__info {
-  padding-bottom: 20px;
+  padding-bottom: $tables-padding;
 }
 
 .working__table {
-  width: 100%;
+  width: $tables-width;
 }
 
 .working__info {
-  padding-bottom: 20px;
+  padding-bottom: $tables-padding;
 }
 
 .languages__table {
-  width: 100%;
+  width: $tables-width;
   font-weight: bold;
 }
 
 .languages__info {
-  padding-bottom: 20px;
+  padding-bottom: $tables-padding;
 }
 
 .software__table {
-  width: 100%;
+  width: $tables-width;
 }
 
 .software__header {
@@ -57,23 +57,23 @@ body {
 }
 
 .software__info {
-  padding-bottom: 20px;
+  padding-bottom: $tables-padding;
 }
 
 .courses__table {
-  width: 100%;
+  width: $tables-width;
   font-weight: bold;
 }
 
 .courses__info {
-  padding-bottom: 20px;
+  padding-bottom: $tables-padding;
 }
 
 .others__table {
-  width: 100%;
+  width: $tables-width;
   font-weight: bold;
 }
 
 .others__info {
-  padding-bottom: 20px;
+  padding-bottom: $tables-padding;
 }
