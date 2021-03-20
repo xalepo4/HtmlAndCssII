@@ -51,16 +51,7 @@ body {
   text-align: center;
 }
 
-.academic__table {
-  border: 2px solid black;
-  width: $tables-width;
-
-  td {
-    padding-bottom: $tables-padding;
-  }
-}
-
-.working__table {
+table[class*="__table"] {
   border: 2px solid black;
   width: $tables-width;
 
@@ -70,44 +61,19 @@ body {
 }
 
 .languages__table {
-  border: 2px solid black;
-  width: $tables-width;
   font-weight: bold;
-
-  td {
-    padding-bottom: $tables-padding;
-  }
 }
 
 .software__table {
-  border: 2px solid black;
-  width: $tables-width;
-
   th {
     text-align: left;
-  }
-
-  td {
-    padding-bottom: $tables-padding;
   }
 }
 
 .courses__table {
-  border: 2px solid black;
-  width: $tables-width;
   font-weight: bold;
-
-  td {
-    padding-bottom: $tables-padding;
-  }
 }
 
 .others__table {
-  border: 2px solid black;
-  width: $tables-width;
   font-weight: bold;
-
-  td {
-    padding-bottom: $tables-padding;
-  }
 }
