@@ -1,0 +1,79 @@
+@import "../functions";
+
+body {
+  margin: 0;
+  padding: 30px;
+  font-family: $font-family-sans-serif;
+  font-size: $font-size;
+  background: gradient($cv-bg-primary, $cv-bg-secondary);
+  color: $cv-text;
+
+  /* Extra small devices (phones, 600px and down) */
+  @media only screen and (max-width: 600px) {
+    font-size: 10px
+  }
+
+  /* Small devices (portrait tablets and large phones, 600px and up) */
+  @media only screen and (min-width: 600px) {
+    font-size: 12px
+  }
+
+  /* Medium devices (landscape tablets, 768px and up) */
+  @media only screen and (min-width: 768px) {
+    font-size: 16px
+  }
+
+  /* Large devices (laptops/desktops, 992px and up) */
+  @media only screen and (min-width: 992px) {
+    font-size: 18px
+  }
+
+  /* Extra large devices (large laptops and desktops, 1200px and up) */
+  @media only screen and (min-width: 1200px) {
+    font-size: 20px
+  }
+}
+
+.header__image {
+  height: 250px;
+  width: 200px;
+  border-radius: 50%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.header__text {
+  text-align: center;
+}
+
+.info {
+  text-align: center;
+}
+
+table[class*="__table"] {
+  border: 2px solid black;
+  width: $tables-width;
+
+  td {
+    padding-bottom: $tables-padding;
+  }
+}
+
+.languages__table {
+  font-weight: bold;
+}
+
+.software__table {
+  th {
+    text-align: left;
+  }
+}
+
+.courses__table {
+  font-weight: bold;
+}
+
+.others__table {
+  font-weight: bold;
+}

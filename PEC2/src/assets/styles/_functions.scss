@@ -1,0 +1,3 @@
+@function gradient($from, $to) {
+  @return linear-gradient(to right, $from, $to);
+}
