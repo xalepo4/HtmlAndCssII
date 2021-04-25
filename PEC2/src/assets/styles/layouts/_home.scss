@@ -17,20 +17,14 @@ a {
   text-align: center;
 }
 
-.header {
-  margin-bottom: 10px;
-  background: $accent;
-  text-align: center;
-  align-items: center;}
-
 .poster {
   width: 100%;
   height: 100%;
 }
 
 .logo {
-  width: 100%;
-  height: 100%;
+  width: 200px;
+  height: 50px;
 }
 
 .footer {
@@ -43,12 +37,6 @@ a {
 // Grid layout for wide display
 @supports (display:grid) {
   @media (min-width: 42em) and (min-height: 27em) {
-    .header {
-      display: grid;
-      grid-template-columns: repeat(5, 1fr);
-      grid-gap: 10px;
-    }
-
     .footer {
       display: grid;
       grid-template-columns: repeat(5, 1fr);
