@@ -27,22 +27,9 @@ a {
   height: 50px;
 }
 
-.footer {
-  margin-top: 10px;
-  background: $accent;
-  text-align: center;
-  align-items: center;
-}
-
 // Grid layout for wide display
 @supports (display:grid) {
   @media (min-width: 42em) and (min-height: 27em) {
-    .footer {
-      display: grid;
-      grid-template-columns: repeat(5, 1fr);
-      grid-gap: 10px;
-    }
-
     .content {
       display: grid;
       margin-top: 10px;
