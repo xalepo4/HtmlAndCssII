@@ -4,7 +4,7 @@
   margin-bottom: 50px;
 }
 
-.components {
+.members {
   display: flex;
   flex-wrap: wrap;
   align-items: center;
@@ -12,7 +12,7 @@
   padding: 20px;
 }
 
-.components > div {
+.members > div {
   flex: 1 0 21%;
   width: 200px;
   height: 380px;
@@ -21,7 +21,7 @@
   margin-right: 30px;
 }
 
-.avatar {
+.members__avatar {
   vertical-align: middle;
   width: 140px;
   height: 140px;
@@ -29,10 +29,10 @@
   margin-bottom: 10px;
 }
 
-.name {
+.members__name {
   color: $accent;
 }
 
-.role {
+.members__role {
   font-weight: bold;
 }
