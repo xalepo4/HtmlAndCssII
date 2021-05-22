@@ -1,21 +1,135 @@
 <!DOCTYPE html>
 
-<html>
-  <head>
+<html lang="en">
+<head>
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, user-scalable=no">
+    <meta name="viewport" content="width=device-width, user-scalable=yes">
     <link rel="stylesheet" type="text/css" href="./assets/styles/main.scss"><!-- do not remove this line! -->
-    <title>UOC Boilerplate</title>
-  </head>
-  <body>
-    <img src="./assets/images/logo.png" alt="Universitat Oberta de Catalunya" class="uoc-logo">
-    <h1 class="uoc-title">Hello, UOC!</h1>
-    <p>
-      This is a starter template for the Advanced HTML and CSS Tools courses
-      from the Master's Program in Multimedia Applications and the Master's
-      Program in Web App and Website Development at the Universitat Oberta de
-      Catalunya.
-    </p>
-    <script src="./assets/scripts/main.js"></script><!-- do not remove this line! -->
-  </body>
+    <title>Xavi's Band</title>
+</head>
+<body>
+
+<div class="header">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+            <img class="header__logo" src="assets/images/logo.png" alt="Band logo">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent"
+                    aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="index.html">Members</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="biography.html">Biography</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Images</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+</div>
+
+<h2 class="title">Members</h2>
+
+<div class="members">
+    <div>
+        <img class="members__avatar" src="assets/images/member1.jpeg" alt="Rosa Castro"/>
+        <h5 class="members__name">Rosa Castro</h5>
+        <p class="members__role">Estilista</p>
+        <p>La moda es su estilo de vida</p>
+    </div>
+    <div>
+        <img class="members__avatar" src="assets/images/member2.jpeg" alt="Xavi Martinez"/>
+        <h5 class="members__name">Xavi Martinez</h5>
+        <p class="members__role">Compositor</p>
+        <p>Fundador y creador de los temas más populares</p>
+    </div>
+    <div>
+        <img class="members__avatar" src="assets/images/member3.jpeg" alt="Alba Rodriguez"/>
+        <h5 class="members__name">Alba Rodriguez</h5>
+        <p class="members__role">Compositoria</p>
+        <p>Creadora de los temas más populares</p>
+    </div>
+    <div>
+        <img class="members__avatar" src="assets/images/member4.jpeg" alt="Carla Perez"/>
+        <h5 class="members__name">Carla Perez</h5>
+        <p class="members__role">Marketing</p>
+        <p>Diseñadora gráfica de todos el merchandising</p>
+    </div>
+
+    <div>
+        <img class="members__avatar" src="assets/images/member5.jpeg" alt="Antonio García"/>
+        <h5 class="members__name">Antonio García</h5>
+        <p class="members__role">Batería</p>
+        <p>El ritmo corre por sus venas</p>
+    </div>
+
+    <div>
+        <img class="members__avatar" src="assets/images/member6.jpeg" alt="Aitor Blanco"/>
+        <h5 class="members__name">Aitor Blanco</h5>
+        <p class="members__role">Guitarrista</p>
+        <p>La guitarra es su pasión desde los 15 años</p>
+    </div>
+
+    <div>
+        <img class="members__avatar" src="assets/images/member7.jpeg" alt="Alfredo Vega"/>
+        <h5 class="members__name">Alfredo Vega</h5>
+        <p class="members__role">Ukelele</p>
+        <p>Los mejores ritmos hawaianos</p>
+    </div>
+
+    <div>
+        <img class="members__avatar" src="assets/images/member8.jpeg" alt="Pedro Robles"/>
+        <h5 class="members__name">Pedro Robles</h5>
+        <p class="members__role">Chelo</p>
+        <p>El mejor toque musical</p>
+    </div>
+
+</div>
+
+<div class="footer">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+            <img class="footer__logo" src="assets/images/logo.png" alt="Band logo">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent2"
+                    aria-controls="navbarSupportedContent2" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent2">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0 mx-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="index.html">Members</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="biography.html">Biography</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Images</a>
+                    </li>
+                </ul>
+                <div class="footer__social">
+                    <i class="fab fa-facebook-square fa-lg"></i>
+                    <i class="fab fa-twitter-square fa-lg"></i>
+                    <i class="fab fa-instagram-square fa-lg"></i>
+                </div>
+            </div>
+        </div>
+    </nav>
+</div>
+
+<script src="./assets/scripts/main.js"></script><!-- do not remove this line! -->
+</body>
 </html>
