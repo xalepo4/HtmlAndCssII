@@ -1,18 +1,18 @@
 module.exports = {
   purge: {
     enabled: true,
-    content: ['./src/*.html'],
+    content: ['./src/**/*.html'],
   },
   darkMode: false, // or 'media' or 'class'
   theme: {
-    textColor: {
-      'primary': '#7e5c64',
-      'secondary': '#ffffff'
+    extend: {
+      flex: {
+        '4': '1 0 21%'
+      },
+      textColor: {
+        'accent': '#7e5c64'
+      }
     },
-    flex: {
-      '4': '1 0 21%'
-    },
-    extend: {},
   },
   variants: {
     extend: {},

@@ -1,3 +1,5 @@
-.card-shadow {
-  @apply mx-auto bg-white rounded-xl shadow-md overflow-hidden;
+@layer components {
+  .card-shadow {
+    @apply mx-auto bg-white rounded-xl shadow-md overflow-hidden;
+  }
 }
