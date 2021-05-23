@@ -26,6 +26,9 @@
  * Import layouts
  * It's a best practice to use a different partial for each page
  */
+@import "layouts/home";
+@import "layouts/biography";
+@import "layouts/shared/shared";
 
 /**
  * Do NOT include anything else in this file!
